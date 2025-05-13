@@ -2,9 +2,9 @@
 // Configuración de conexión
 $hostname = "localhost";
 $username = "root";
-$password = "eyj2508";
+$password = "";
 $database = "ejemplo";
-$port = "3308";
+$port = "";
 
 // Establecer conexión con manejo de errores
 $enlace = mysqli_connect($hostname, $username, $password, $database, $port);
